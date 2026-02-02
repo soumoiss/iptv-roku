@@ -1,31 +1,47 @@
+// data/canais.json
 {
-  "app": "IPTV Roku",
-  "version": "1.0",
-  "updated": "2026-01-01",
   "categories": [
     {
-      "id": "teste",
-      "name": "Canais de Teste",
-      "channels": [
+      "id": "doramas",
+      "title": "Doramas",
+      "items": [
         {
-          "id": "mux_test",
-          "name": "Canal Teste HLS",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg",
-          "stream": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-          "type": "tv"
+          "title": "Rainha das Lágrimas",
+          "image": "rainha_das_lagrimas.png",
+          "episodes": [
+            { "title": "Episódio 1", "url": "https://www.pobreflixtv.top/assistir-rainha-das-lagrimas-1x1-dublado-33590/" },
+            { "title": "Episódio 2", "url": "https://edge2-waw-sprintcdn.r66nv9ed.com/hls2/05/10089/m6lpq90wv2gb_x/master.m3u8" },
+            { "title": "Episódio 3", "url": "https://edge1-waw-sprintcdn.r66nv9ed.com/hls2/06/06035/ofn54gasqqv6_h/index-v1-a1.m3u8" },
+            { "title": "Episódio 4", "url": "https://be7713.rcr82.waw05.r66nv9ed.com/hls2/06/06035/fm09wu1z16yz_h/iframes-v1-a1.m3u8" },
+            { "title": "Episódio 5", "url": "https://edge1-waw-sprintcdn.r66nv9ed.com/hls2/01/10645/wt8lf68bmghr_h/index-v1-a1.m3u8" },
+            { "title": "Episódio 6", "url": "https://edge2-waw-sprintcdn.r66nv9ed.com/hls2/06/06035/y35mh2evp0ru_h/index-v1-a1.m3u8" },
+            { "title": "Episódio 7", "url": "https://be6721.rcr72.waw04.r66nv9ed.com/hls2/03/06035/9pdc510et0z3_h/index-v1-a1.m3u8" },
+            { "title": "Episódio 8", "url": "https://be7713.rcr82.waw05.r66nv9ed.com/hls2/03/06035/wbnmjdc68p2r_h/iframes-v1-a1.m3u8" },
+            { "title": "Episódio 9", "url": "https://be6721.rcr72.waw04.r66nv9ed.com/hls2/06/06035/tua5w33env4h_h/index-v1-a1.m3u8" },
+            { "title": "Episódio 10", "url": "https://be6721.rcr72.waw04.r66nv9ed.com/hls2/06/06035/pjicxg4k7cne_h/iframes-v1-a1.m3u8" },
+            { "title": "Episódio 11", "url": "https://fin-3dg-b1.r66nv9ed.com/hls2/01/06035/otr59docvo4m_h/index-v1-a1.m3u8" },
+            { "title": "Episódio 12", "url": "https://edge2-waw-sprintcdn.r66nv9ed.com/hls2/06/06035/8bblu30s8gn7_h/index-v1-a1.m3u8" },
+            { "title": "Episódio 13", "url": "https://be7713.rcr82.waw05.r66nv9ed.com/hls2/06/06052/6if4g27h28ai_h/iframes-v1-a1.m3u8" },
+            { "title": "Episódio 14", "url": "https://fin-3dg-b1.r66nv9ed.com/hls2/06/06052/g1782l0re24e_h/master.m3u8" },
+            { "title": "Episódio 15", "url": "https://edge2-waw-sprintcdn.r66nv9ed.com/hls2/01/06119/qqlu0ip94klx_x/iframes-v1-a1.m3u8" },
+            { "title": "Episódio 16", "url": "https://fin-3dg-b1.r66nv9ed.com/hls2/01/06120/dcgt63bmnb5j_x/iframes-v1-a1.m3u8" }
+          ]
         }
       ]
     },
     {
-      "id": "radios",
-      "name": "Rádios",
-      "channels": [
+      "id": "series",
+      "title": "Séries",
+      "items": []
+    },
+    {
+      "id": "filmes",
+      "title": "Filmes",
+      "items": [
         {
-          "id": "radio_test",
-          "name": "Rádio Teste",
-          "logo": "https://upload.wikimedia.org/wikipedia/commons/8/84/Radio_icon.svg",
-          "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service",
-          "type": "radio"
+          "title": "Enrolados",
+          "image": "enrolados.png",
+          "url": "https://fin-3dg-b1.r66nv9ed.com/hls2/10/09176/jhuxl42g57f7_h/iframes-v1-a1.m3u8"
         }
       ]
     }
